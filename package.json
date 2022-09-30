@@ -20,6 +20,8 @@
     "jquery": "^3.5.1"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "@fancyapps/ui": "^4.0.31",
+    "normalize.css": "^8.0.1",
+    "swiper": "^8.4.2"
   }
 }

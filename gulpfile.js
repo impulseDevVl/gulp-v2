@@ -42,6 +42,8 @@ function scripts() {
   return src([
     'node_modules/jquery/dist/jquery.js',
     'js/libs/phoneinput.js',
+    'node_modules/@fancyapps/ui/fancybox.umd.js',
+    'node_modules/swiper/swiper-bundle.min.js',
     'app/js/main.js'
   ])
     .pipe(concat('main.min.js'))
@@ -54,6 +56,8 @@ function scripts() {
 function styles() {
   return src([
     'node_modules/normalize.css/normalize.css',
+    'node_modules/@fancyapps/ui/fancybox.css',
+    'node_modules/swiper/swiper-bundle.min.css',
     'app/sass/style.sass'
   ])
       .pipe(sass({outputStyle: 'compressed'}))
